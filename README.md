@@ -26,6 +26,7 @@ Each dataset consists of 3 files: `train.json`, `val.json`, and `test.json` - co
   "keywords": List[str]           # keywords/topic of article
 }
 ```
+**Note:** For the majority of experiments in the paper, our model input consists of the `abstract` concatenated with `sections`. 
 
 ## Huggingface Datasets
 
