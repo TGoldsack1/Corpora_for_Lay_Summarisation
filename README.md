@@ -4,7 +4,7 @@ This repository contains the code and data for the paper "[Making Science Simple
 
 ## Data
 
-Download links for PLOS and eLife, the two dataset introduced in our paper, are given below:
+Download links for PLOS and eLife, the two datasets introduced in our paper, are given below:
 
 * [PLOS](https://drive.google.com/file/d/1lZ6PCAtXvmGjRZyp3vQQCEgO_yerH62Q/view?usp=sharing) (~1.3GB uncompressed)
 * [eLife](https://drive.google.com/file/d/1WKW8BAqluOlXrpy1B9mV3j3CtAK3JdnE/view?usp=sharing) (~330MB uncompressed)
