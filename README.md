@@ -1,6 +1,6 @@
 # Corpora-for-Lay-Summarisation
 
-This repository contains the code and data for the paper "Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature" accepted in EMNLP 2022.
+This repository contains the code and data for the paper "[Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature](https://arxiv.org/abs/2210.09932)", accepted in EMNLP 2022.
 
 ## Data
 
