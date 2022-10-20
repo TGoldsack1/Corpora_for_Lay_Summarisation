@@ -17,7 +17,7 @@ Each dataset consists of 3 files: `train.json`, `val.json`, and `test.json` - co
 ```
 {
   "id": str,                      # unique identifier
-  "year": int,                    # year of publication
+  "year": str,                    # year of publication
   "title": str,                   # title
   "sections": List[List[str]],    # main text, divided in to sections
   "headings" List[str],           # headings of each section
@@ -30,7 +30,18 @@ Each dataset consists of 3 files: `train.json`, `val.json`, and `test.json` - co
 
 ## Huggingface Datasets
 
-These datasets will also be made available via the Huggingface datasets library (coming soon).
+The datasets will are also available on the Huggingface Datasets library ([page link](https://huggingface.co/datasets/tomasg25/scientific_lay_summarisation)).
+
+They can be retrieved as follows:
+
+```
+from datasets import load_dataset
+
+dataset = load_dataset("tomasg25/scientific_lay_summarisation", "plos") # replace "plos" with "elife" for eLife dataset
+
+```
+
+**Note:** Both datasets are provided in a slightly different format (using strings instead of lists) via huggingface - see the dataset page on huggingface for details.  
 
 ## Citation
 
