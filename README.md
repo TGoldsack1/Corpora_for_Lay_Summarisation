@@ -38,7 +38,6 @@ They can be retrieved as follows:
 from datasets import load_dataset
 
 dataset = load_dataset("tomasg25/scientific_lay_summarisation", "plos") # replace "plos" with "elife" for eLife dataset
-
 ```
 
 **Note:** Both datasets are provided in a slightly different format (using strings instead of lists) via huggingface - see the dataset page on huggingface for details.  
