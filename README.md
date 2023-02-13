@@ -26,7 +26,7 @@ Each dataset consists of 3 files: `train.json`, `val.json`, and `test.json` - co
   "keywords": List[str]           # keywords/topic of article
 }
 ```
-**Note:** For the majority of experiments in the paper, our model input consists of the `abstract` concatenated with `sections`. 
+**Note:** For the majority of experiments in the paper, our model input consists of the `abstract` concatenated with `sections`.
 
 ## Huggingface Datasets
 
@@ -41,6 +41,10 @@ dataset = load_dataset("tomasg25/scientific_lay_summarisation", "plos") # replac
 ```
 
 **Note:** Both datasets are provided in a slightly different format (using strings instead of lists) via huggingface - see the dataset page on huggingface for details.  
+
+## Human Evaluation Annotations
+
+The annotations created as part of the expret-based human evaluation described in the paper are available in the `human_eval` folder.
 
 ## Citation
 
