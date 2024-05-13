@@ -1,6 +1,6 @@
 # Corpora-for-Lay-Summarisation
 
-This repository contains the code and data for the paper "[Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature](https://arxiv.org/abs/2210.09932)", accepted in EMNLP 2022.
+This repository contains the code and data for the paper "[Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature](https://aclanthology.org/2022.emnlp-main.724/)", published in EMNLP 2022.
 
 ## Data
 
@@ -57,10 +57,26 @@ We provide the test sets for both editions below:
 
 ## Citation
 
-When using either dataset, please cite the following:
+When using either dataset, please use the following BibTeX entry:
 
 ```
-"Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature"
-Tomas Goldsack, Zhihao Zhang, Chenghua Lin, Carolina Scarton
-EMNLP 2022
+@inproceedings{goldsack-etal-2022-making,
+    title = "Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature",
+    author = "Goldsack, Tomas  and
+      Zhang, Zhihao  and
+      Lin, Chenghua  and
+      Scarton, Carolina",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.724",
+    doi = "10.18653/v1/2022.emnlp-main.724",
+    pages = "10589--10604",
+    abstract = "Lay summarisation aims to jointly summarise and simplify a given text, thus making its content more comprehensible to non-experts. Automatic approaches for lay summarisation can provide significant value in broadening access to scientific literature, enabling a greater degree of both interdisciplinary knowledge sharing and public understanding when it comes to research findings. However, current corpora for this task are limited in their size and scope, hindering the development of broadly applicable data-driven approaches. Aiming to rectify these issues, we present two novel lay summarisation datasets, PLOS (large-scale) and eLife (medium-scale), each of which contains biomedical journal articles alongside expert-written lay summaries. We provide a thorough characterisation of our lay summaries, highlighting differing levels of readability and abstractivenessbetween datasets that can be leveraged to support the needs of different applications. Finally, we benchmark our datasets using mainstream summarisation approaches and perform a manual evaluation with domain experts, demonstrating their utility and casting light on the key challenges of this task.",
+}
 ```
