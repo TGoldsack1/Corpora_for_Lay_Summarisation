@@ -46,6 +46,15 @@ dataset = load_dataset("tomasg25/scientific_lay_summarisation", "plos") # replac
 
 The annotations created as part of the expret-based human evaluation described in the paper are available in the `human_eval` folder.
 
+## BioLaySumm Shared Task
+
+These datasets have also been utilised as the basis for the BioLaySumm shared task, which has been hosted by the BioNLP workshop at ACL 2023 and 2024. Both editions of the task have used the same training and validation sets as provided here, with new test sets being introduced for each edition. More information on each edition of the task can be found on the [BioLaySumm website](https://biolaysumm.org/).
+
+We provide the test sets for both editions below:
+
+* [BioLaySumm 2024](https://drive.google.com/drive/folders/1M1q8EwUpMt4eM9hfLS_ZXYfBHc3YusjC?usp=sharing)
+* [BioLaySumm 2023](https://drive.google.com/drive/folders/16oohd1_dxayYjfS--UOk_iQ5M4uJ54ve?usp=drive_link)
+
 ## Citation
 
 When using either dataset, please cite the following:
